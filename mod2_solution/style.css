@@ -1,3 +1,93 @@
+@media (min-width: 992px) {
+  .col-lg-4, .col-md-6, .col-sm-12 {
+    width: 30.66%;
+    float: left;
+  }
+  #a {
+    margin: 2% 1% 2% 2%;
+  }
+  #b {
+    margin: 2% 1% 2% 1%;
+  }
+  #c {
+    margin: 2% 2% 2% 1%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 44%;
+    float: left;
+  }
+  .col-sm-12 {
+    clear: left
+  }
+  #a {
+    margin: 2% 2% 4% 4%;
+  }
+  #b {
+    margin: 2% 4% 4% 2%;
+  }
+  #c {
+    margin: 4%;
+  }
+}
+@media (max-width: 767px) {
+  #a {
+    margin: 6% 6% 4% 6%;
+  }
+  #b {
+    margin: 4% 6% 4% 6%;
+  }
+  #c {
+    margin: 4% 6% 6% 6%;
+  }
+}
+body {
+  margin: 0;
+}
+* {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+div {
+  position: relative;
+  border: 1px solid black;
+  padding: 40px 0px 20px 15px;
+  background: gray;
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 175%;
+}
 p {
-  text-align: center
+  margin: 0;
+}
+.chicken {
+  padding: 0px 30px 0 30px;
+  font-size: 125%;
+  right: -1px;
+  top: -1px;
+  position: absolute;
+  background: rgba(255, 192, 203, 0.841);
+  border: 1px solid black;
+}
+.beef {
+  padding: 0px 50px 0 50px;
+  font-size: 125%;
+  right: -1px;
+  top: -1px;
+  position: absolute;
+  background: rgba(255, 0, 0, 0.563);
+  border: 1px solid black;
+}
+.sushi {
+  padding: 0px 40px 0 40px;
+  font-size: 125%;
+  right: -1px;
+  top: -1px;
+  position: absolute;
+  background: rgb(202, 202, 48);
+  border: 1px solid black;
 }
